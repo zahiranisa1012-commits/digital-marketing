@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Digital Marketing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-office">
+
+<div class="dashboard">
+    <h2>Digital Marketing Produk</h2>
+
+    <form id="productForm">
+        <label>Foto Produk</label>
+        <input type="file" id="photo" accept="image/*" required>
+
+        <label>Keterangan Produk</label>
+        <textarea id="description" required></textarea>
+
+        <label>Hasil Produk</label>
+        <textarea id="result" required></textarea>
+
+        <label>Peluang & Keuntungan</label>
+        <textarea id="benefit" required></textarea>
+
+        <button type="submit">Simpan Produk</button>
+    </form>
+
+    <div id="productOutput"></div>
+
+    <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
